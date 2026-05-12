@@ -33,6 +33,6 @@
 }
 
 .viewDetail {
-  @apply mt-4 block text-xs font-bold uppercase tracking-wider text-blue-600 opacity-0 transition-all group-hover:opacity-100;
+  @apply mt-4 block text-xs font-bold uppercase tracking-wider text-blue-600 opacity-100 transition-all group-hover:opacity-100;
 }
 
