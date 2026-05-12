@@ -13,7 +13,7 @@
 }
 
 .titleAccent {
-  @apply text-purple-700 text-2xl;
+  @apply text-purple-700 text-5xl;
 }
 
 .description {
