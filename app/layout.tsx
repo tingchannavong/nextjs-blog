@@ -47,6 +47,9 @@ export default function RootLayout({
                 <Link href="/dashboard" className={styles.navLink}>
                   Dashboard
                 </Link>
+                <Link href="/users" className={styles.navLink}>
+                  Users
+                </Link>
                 <Link href="/about" className={styles.navLink}>
                   About
                 </Link>

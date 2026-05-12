@@ -31,7 +31,6 @@ function ProductDetails({params}: ProductDetailProps) {
         <p className={styles.title}>{thisProduct.name}</p>
         <p className={styles.price}>{thisProduct.price}฿</p>
         <p className={styles.description}>{thisProduct.description}</p>
-        <img src="/images/dog.jpg" alt="dogpic" />
         <Link href="/products">
             <button className={styles.badge}>Back to products</button>
             </Link>
