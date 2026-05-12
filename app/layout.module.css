@@ -6,7 +6,7 @@
 }
 
 .bodyWrapper {
-  @apply flex min-h-screen flex-col bg-purple-200;
+  @apply flex min-h-screen min-w-screen flex-col bg-purple-200;
 }
 
 .header {
@@ -42,5 +42,5 @@
 }
 
 .footer {
-  @apply border-t border-slate-100 py-10 text-center text-xs font-medium text-slate-400;
+  @apply border-t border-slate-100 py-10 text-center text-xs font-medium text-slate-400 bg-white/80;
 }

@@ -1,7 +1,12 @@
+import styles from "./page.module.css";
+
 export default function HomePage() {
   return (
-    <div>
-      <h1 className="p-2 m-2 text-4xl text-purple-700">Next JS App</h1>
-    </div>
-  )
+    <section>
+      <div>
+        <h1 className={styles.title}>Welcome</h1>
+        <h1 className={styles.titleAccent}>Next JS App</h1>
+      </div>
+    </section>
+  );
 }

@@ -40,7 +40,11 @@ export default function RootLayout({
             </div>
           </header>
 
-          <main>{children}</main>
+          <main className={styles.main}>{children}</main>
+
+          <footer className={styles.footer}>
+            <p> 2026&copy; CoCamp.  All rights reserved.</p>
+          </footer>
         </div>
       </body>
     </html>
