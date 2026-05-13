@@ -1,10 +1,12 @@
 import GoBack from "../components/GoBack";
+import { createPost } from "./actions";
 
 function CreatePostPage() {
+
   return (
     <div className="flex flex-col gap-2 m-2 p-2">
       <h1 className="text-3xl font-bold">Create Post</h1>
-      <form className="flex flex-col gap-2 m-2 p-2 w-200">
+      <form action={createPost} className="flex flex-col gap-2 m-2 p-2 w-200">
         <GoBack />
         <input
           name="title"
@@ -13,7 +15,7 @@ function CreatePostPage() {
           placeholder="Your Post Title"
         />
         <textarea
-          name=""
+          name="content"
           id=""
           className="border p-2 rounded bg-slate-100"
           placeholder="I am feeling..."
